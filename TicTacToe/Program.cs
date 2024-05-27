@@ -17,7 +17,7 @@ namespace Program {
             Console.WriteLine( "└───┴───┴───┘");
 
             var Turn = new Turn();
-            int movement = Turn.PlayerMovement();
+            int movement = Turn.PlayerMove();
             Console.Clear();
 
             Turn.PlayerTurn(player, movement);

@@ -5,10 +5,6 @@ namespace Program {
 
         private int[] _movePositions = { 0, 1, 2, 3, 4, 5, 6, 7, 8};
 
-        internal void Board() {
-            
-        }
-
         internal void PlayerTurn(char player, int position) {
             bool playerMoved = false;
             bool lineWrited = false;
@@ -52,7 +48,7 @@ namespace Program {
             Console.WriteLine( "└───┴───┴───┘");
         }
 
-        internal int PlayerMovement() {
+        internal int PlayerMove() {
             Console.WriteLine("Elija una casilla según su número");
 
             int key = Convert.ToInt32(Console.ReadLine());
