@@ -1,0 +1,14 @@
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\bin\Debug\net7.0\TicTacToe.exe
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\bin\Debug\net7.0\TicTacToe.deps.json
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\bin\Debug\net7.0\TicTacToe.runtimeconfig.json
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\bin\Debug\net7.0\TicTacToe.dll
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\bin\Debug\net7.0\TicTacToe.pdb
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.AssemblyInfoInputs.cache
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.AssemblyInfo.cs
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.csproj.CoreCompileInputs.cache
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.dll
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\refint\TicTacToe.dll
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.pdb
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\TicTacToe.genruntimeconfig.cache
+d:\Estudios\Proyectos Personales\Portafolio\Proyectos C#\TicTacToe\TicTacToe\obj\Debug\net7.0\ref\TicTacToe.dll
