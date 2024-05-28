@@ -1,19 +1,17 @@
 
 namespace Program {
 
-    internal class Present {
+    internal sealed class Present {
 
-        public char Presentation() {
+        public void Presentation() {
             Console.WriteLine("-----------------------------------------");
-            Console.WriteLine("¡Bienvenido a TicTacToe de consola!");
+            Console.WriteLine("¡Bienvenido a Tic-Tac-Toe de consola!");
             Console.WriteLine("¡Presione cualquier tecla para continuar!");
             Console.WriteLine("-----------------------------------------");
-            
-            Console.WriteLine();
+            Console.WriteLine("Hecho por Julián Abaroa");
 
-            Console.WriteLine("Elija que jugador quiere ser (X/O)");
-
-            return Console.ReadKey().KeyChar;
+            Console.ReadKey();
+            Console.Clear();
         }
         
     }

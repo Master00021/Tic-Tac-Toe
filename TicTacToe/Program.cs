@@ -1,28 +1,40 @@
 ﻿
 namespace Program {
 
-    internal class TicTacToe {
+    internal class Program {
 
         public static void Main(string[] args) {
-            var present = new Present();
-            char player = present.Presentation();
-            Console.Clear();
+            do {
+                var gameCycle = new GameCycle();
+                var board = new Board();
+                var player = new Player();
+                var bot = new Bot();
 
-            Console.WriteLine( "┌───┬───┬───┐");
-            Console.WriteLine($"│ 1 │ 2 │ 3 │");
-            Console.WriteLine( "├───┼───┼───┤");
-            Console.WriteLine($"│ 4 │ 5 │ 6 │");
-            Console.WriteLine( "├───┼───┼───┤");
-            Console.WriteLine($"│ 7 │ 8 │ 9 │");
-            Console.WriteLine( "└───┴───┴───┘");
+                gameCycle.RestartGame();
 
-            var Turn = new Turn();
-            int movement = Turn.PlayerMove();
-            Console.Clear();
+                board.Reset();
 
-            Turn.PlayerTurn(player, movement);
+                while (GameCycle.GameState == GameState.Playing) {
+                    int playerMove = player.Move(board);
+                    board.SetMove(playerMove, Player.Piece);
+                    board.Write();
 
-            Console.ReadKey();
+                    int iaMove = bot.Move(board);
+                    board.SetMove(iaMove, Bot.Piece);
+                    board.Write();
+                }
+
+                Console.Clear();
+                Console.WriteLine("Partida terminada.");
+                Console.WriteLine("¿Quiere seguir jugando? (s/n)");
+
+                char election = Console.ReadKey().KeyChar;
+
+                if (election != 's' && election != 'S') {
+                    GameCycle.GameState = GameState.CloseGame;
+                }
+
+            } while (GameCycle.GameState != GameState.CloseGame);
         }
 
     }
