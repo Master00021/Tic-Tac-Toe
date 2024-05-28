@@ -31,4 +31,4 @@ Otra dificultad que tuve fue la utilización de datos, específicamente los char
 
 Las condiciones de victoria, no pude dar una solución por mí mismo, después de pensarlo bastante, por lo que busqué en internet, y nuevamente aparecieron los bucles for. Al verlo, me hizo mucho sentido. Supongo que aún no puedo utilizar los bucles for de forma intuitiva, es decir, ver un problema y decir "Oh, para esto podría utilizar un bucle for".
 
-Hoy utilice Clockify, en total estuve 7 horas y 33 minutos trabajando en este proyecto y lo considero terminado. En total estuve 10 horas y 50 minutos aproximadamente.
+Utilice Clockify, estuve 7 horas y 33 minutos trabajando hoy. En total estuve 10 horas y 50 minutos aproximadamente. El proyecto lo considero terminado.
